@@ -1,9 +1,6 @@
 <?php
 class Auth {
-	function __construct() {
-		
-	}
-	function createpassword($password){
+  function createpassword($password){
       $salt = $this->salt();
       return md5($password.$salt).":".$salt;
   }

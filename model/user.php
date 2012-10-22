@@ -1,20 +1,17 @@
 <?php 
-class User extends MySql{
-	function __construct() {
-		//
-	}
-	/*
-	 * info 
-	 * @param : $db connection flag
-	 */
+class User{
+  var $Db;
+    function __construct($Db){
+      $this->Db = $Db;
+    }
 	function getListUser($user_id) {
 		$sql ="SELECT * FROM user WHERE username ='$user_id'";
-		$rs = $DB->Execute($sql);
-    $arr = $rs->GetArray();
-    print_r($arr);
+		$rs = $this->Db->Execute($sql);
+        $rows = $rs->GetRows();
+        if(!$rows){
+          return false;
+        }
+        return $rows;
 	}
 }
-
-$user = new User();
-$user->getListUser('admin@example.com');
 ?>

@@ -17,3 +17,6 @@ $html->setCompileDir($config['root_dir'].$config['tpl_options']['site']['templla
 $html->setCacheDir($config['root_dir'].$config['tpl_options']['site']['cache_dir']);
 $html->setConfigDir('../20120610/config/');
 /*--------------- Smarty Config End -------------*/
+include('./lib/adodb5/adodb.inc.php');
+include_once './model/model.php';
+/*--------------- Model ADODB Connection --------*/

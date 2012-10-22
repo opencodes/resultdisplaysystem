@@ -13,6 +13,5 @@
     <script src="public/js/bootstrap/bootstrap-collapse.js"></script>
     <script src="public/js/bootstrap/bootstrap-carousel.js"></script>
     <script src="public/js/jquery.dataTables.js"></script>
-		<script src="/ckeditor/ckeditor.js"></script>		
   </body>
 </html>

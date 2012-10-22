@@ -42,7 +42,7 @@
             <ul class="nav">
               
               <li class="">
-                <a href="result">Result</a>
+                <a href="result.php">Result</a>
               </li>
             </ul>
           </div>          

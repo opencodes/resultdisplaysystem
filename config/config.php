@@ -31,7 +31,7 @@ $config = array('development'=> array(
     port=> 3306,
     user=> 'root',
     password=> 'root',
-    database=> 'ec_ecibil'
+    database=> 'db_rds'
   ),
   tpl_options=>array(
   	'site'=>array(
