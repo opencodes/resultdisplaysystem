@@ -40,10 +40,7 @@
           </div>        
           <div class="nav-collapse collapse">
             <ul class="nav">
-              
-              <li class="">
-                <a href="result.php">Result</a>
-              </li>
+              <li class=""><a href="search.php">Search</a></li>
             </ul>
           </div>          
     

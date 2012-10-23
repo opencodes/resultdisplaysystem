@@ -10,7 +10,7 @@ $html = new Smarty;
 $config = $config['development'];
 //$html->force_compile = true;
 $html->debugging = false;
-$html->caching = true;
+$html->caching = false;
 $html->cache_lifetime = 120;
 $html->setTemplateDir($config['root_dir'].$config['tpl_options']['site']['template_dir']);
 $html->setCompileDir($config['root_dir'].$config['tpl_options']['site']['templlate_compile_dir']);
